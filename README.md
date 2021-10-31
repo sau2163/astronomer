@@ -27,7 +27,7 @@ path_parent_5 = os.path.realpath(r'./Rules')
 
 path_parent_6 = os.path.realpath(r'./Entity')
 
-# print(path_parent)
+
 
 sys.path.append(path_parent_1)
 
@@ -73,9 +73,9 @@ basket.setProductsRepository(repository)
 
  
 
-# basket.addProduct('G01')
+basket.addProduct('G01')
 
-# basket.addProduct('B01')
+basket.addProduct('B01')
 
 basket.addProduct('R01')
 
